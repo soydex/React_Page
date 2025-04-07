@@ -4,6 +4,8 @@ import { useInView } from "react-intersection-observer";
 
 import { FaGoogle, FaApple } from "react-icons/fa";
 
+console.log(motion);
+
 const HeroSection = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView({
@@ -189,10 +191,10 @@ const HeroSection = () => {
               className="flex -space-x-2 mr-2"
             >
               {[
-                "bg-blue-500",
-                "bg-green-500",
-                "bg-red-500",
-              ].map((color, index) => (
+                "./src/assets/pp1.jpg",
+                "./src/assets/pp2.jpg",
+                "./src/assets/pp3.jpg",
+              ].map((imagePath, index) => (
                 <motion.div
                   key={index}
                   initial={{ x: -20, opacity: 0 }}
@@ -201,8 +203,14 @@ const HeroSection = () => {
                     opacity: 1,
                     transition: { delay: 0.1 * index, duration: 0.5 },
                   }}
-                  className={`w-6 h-6 rounded-full ${color} border-2 border-black`}
-                />
+                  className="w-6 h-6 rounded-full border-2 border-black overflow-hidden"
+                >
+                  <img
+                    src={imagePath}
+                    alt={`User ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </motion.div>
               ))}
             </motion.div>
             <span className="text-sm text-gray-300">
@@ -234,29 +242,17 @@ const HeroSection = () => {
         </div>
 
         <motion.div
-          variants={fadeInWithDelay(0.7)}
-          initial="hidden"
-          animate={controls}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7, duration: 0.5 }}
           className="flex justify-center mb-8"
         >
           <motion.button
             whileHover={{ scale: 1.05, backgroundColor: "#f0f0f0" }}
             whileTap={{ scale: 0.95 }}
-            animate={{
-              boxShadow: [
-                "0px 0px 0px rgba(255, 255, 255, 0)",
-                "0px 0px 15px rgba(255, 255, 255, 0.3)",
-                "0px 0px 0px rgba(255, 255, 255, 0)",
-              ],
-            }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-            className="bg-white text-black font-semibold py-3 px-8 rounded-md text-lg transition duration-300"
+            className="bg-white text-black font-semibold py-2 px-6 rounded-md transition duration-300"
           >
-            Download App
+            Get Template
           </motion.button>
         </motion.div>
 
@@ -355,10 +351,7 @@ const HeroSection = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="container mx-auto px-4 pb-20 text-center"
       >
-        <motion.p
-          variants={fadeIn}
-          className="text-xl font-medium mb-8"
-        >
+        <motion.p variants={fadeIn} className="text-xl font-medium mb-8">
           Trusted by 1000+ businesses across the world
         </motion.p>
         <div className="flex flex-wrap justify-center items-center gap-12">
