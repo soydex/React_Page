@@ -252,7 +252,7 @@ const HeroSection = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-white text-black font-semibold py-2 px-6 rounded-md transition duration-300"
           >
-            Get Template
+            Download App
           </motion.button>
         </motion.div>
 
@@ -302,7 +302,7 @@ const HeroSection = () => {
               <img
                 src="./src/assets/LeftPhone.png"
                 alt="Appit Social App Interface"
-                className="w-64 h-auto"
+                className="w-64 h-auto mask-gradient"
               />
             </motion.div>
 
@@ -320,7 +320,7 @@ const HeroSection = () => {
               <img
                 src="./src/assets/FrontPhone.png"
                 alt="Appit Social Login Screen"
-                className="w-64 h-auto mx-auto"
+                className="w-64 h-auto mx-auto mask-gradient"
               />
             </motion.div>
 
@@ -338,7 +338,7 @@ const HeroSection = () => {
               <img
                 src="./src/assets/RightPhone.png"
                 alt="Appit Social Search Screen"
-                className="w-64 h-auto"
+                className="w-64 h-auto mask-gradient"
               />
             </motion.div>
           </div>

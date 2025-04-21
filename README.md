@@ -24,7 +24,7 @@ Ce projet est une application web moderne construite avec React, Tailwind CSS et
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/mon-projet-react-tailwind.git
+   git clone https://github.com/soydex/React_Page.git
    ```
 2. Accédez au dossier du projet :
    ```bash
@@ -54,6 +54,12 @@ Ce projet est une application web moderne construite avec React, Tailwind CSS et
 - `npm run build` : Génère une version de production.
 - `npm run preview` : Prévisualise la version de production.
 - `npm run lint` : Analyse le code pour détecter les erreurs.
+
+## Design
+
+Maquette confectionné à partir d'un Design Figma existant libre de droit à l'exercice. 
+
+[Maquette Figma](https://www.figma.com/design/NHioQ2uljFIv7EbkOh2lTa/Hero-Section-Collections----1--Community-?node-id=3-5&t=9Tak6SNplWPhmsgC-1)
 
 ## Contribution
 
