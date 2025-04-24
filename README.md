@@ -64,3 +64,5 @@ Maquette confectionné à partir d'un Design Figma existant libre de droit à l'
 ## Contribution
 
 Les contributions sont les bienvenues !
+
+![Aperçu du projet](./projet.png)
