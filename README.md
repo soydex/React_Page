@@ -63,8 +63,4 @@ Maquette confectionné à partir d'un Design Figma existant libre de droit à l'
 
 ## Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request pour proposer des améliorations ou signaler des bugs.
-
-## Licence
-
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer comme bon vous semble.
+Les contributions sont les bienvenues !
