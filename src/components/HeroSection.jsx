@@ -191,9 +191,9 @@ const HeroSection = () => {
               className="flex -space-x-2 mr-2"
             >
               {[
-                "./src/assets/pp1.jpg",
-                "./src/assets/pp2.jpg",
-                "./src/assets/pp3.jpg",
+                "/React_Page/src/assets/pp1.jpg",
+                "/React_Page/src/assets/pp2.jpg",
+                "/React_Page/src/assets/pp3.jpg",
               ].map((imagePath, index) => (
                 <motion.div
                   key={index}
@@ -300,7 +300,7 @@ const HeroSection = () => {
               className="absolute left-0 bottom-1/4 transform -translate-x-1/2 z-10"
             >
               <img
-                src="./src/assets/LeftPhone.png"
+                src="/React_Page/src/assets/LeftPhone.png"
                 alt="Appit Social App Interface"
                 className="w-64 h-auto mask-gradient"
               />
@@ -318,7 +318,7 @@ const HeroSection = () => {
               className="relative z-20"
             >
               <img
-                src="./src/assets/FrontPhone.png"
+                src="/React_Page/src/assets/FrontPhone.png"
                 alt="Appit Social Login Screen"
                 className="w-64 h-auto mx-auto mask-gradient"
               />
@@ -336,7 +336,7 @@ const HeroSection = () => {
               className="absolute right-0 bottom-1/4 transform translate-x-1/2 z-10"
             >
               <img
-                src="./src/assets/RightPhone.png"
+                src="/React_Page/src/assets/RightPhone.png"
                 alt="Appit Social Search Screen"
                 className="w-64 h-auto mask-gradient"
               />
@@ -368,7 +368,7 @@ const HeroSection = () => {
               custom={index}
               variants={logoVariants}
               whileHover={{ scale: 1.1 }}
-              src={`./src/assets/${company}.png`}
+              src={`/React_Page/src/assets/${company}.png`}
               alt={company}
               className="h-8"
             />

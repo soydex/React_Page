@@ -102,6 +102,11 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
+      <img
+        src="/React_Page/src/assets/logo.svg"
+        className="logo react"
+        alt="React logo"
+      />
     </div>
   );
 }
