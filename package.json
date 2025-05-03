@@ -6,7 +6,7 @@
   "homepage": "https://soydex.github.io/React_Page",
   "description": "A React application styled with Tailwind CSS",
   "author": "soydex",
-  "license": "MIT",  
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -45,7 +45,7 @@
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.2.0",
-    "terser": "^5.19.2"
+    "terser": "^5.19.2",
+    "vite": "^6.2.0"
   }
 }
