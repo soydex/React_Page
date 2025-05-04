@@ -61,6 +61,10 @@ Maquette confectionné à partir d'un Design Figma existant libre de droit à l'
 
 [Maquette Figma](https://www.figma.com/design/NHioQ2uljFIv7EbkOh2lTa/Hero-Section-Collections----1--Community-?node-id=3-5&t=9Tak6SNplWPhmsgC-1)
 
+## Démo en ligne
+
+La page est consultable ici : [https://soydex.github.io/React_Page/](https://soydex.github.io/React_Page/)
+
 ## Contribution
 
 Les contributions sont les bienvenues !
