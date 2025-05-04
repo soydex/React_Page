@@ -131,7 +131,7 @@ const HeroSection = () => {
           <div className="text-white text-2xl font-bold flex items-center">
             <motion.img
               whileHover={{ scale: 1.05 }}
-              src="./src/assets/logo.svg"
+              src="/React_Page/src/assets/logo.svg"
               alt="Appit Logo"
               className="h-10 mr-2"
             />
