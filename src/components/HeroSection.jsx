@@ -131,7 +131,7 @@ const HeroSection = () => {
           <div className="text-white text-2xl font-bold flex items-center">
             <motion.img
               whileHover={{ scale: 1.05 }}
-              src="/React_Page/src/assets/logo.svg"
+              src="/React_Page/assets/logo.svg"
               alt="Appit Logo"
               className="h-10 mr-2"
             />
@@ -191,9 +191,9 @@ const HeroSection = () => {
               className="flex -space-x-2 mr-2"
             >
               {[
-                "/React_Page/src/assets/pp1.jpg",
-                "/React_Page/src/assets/pp2.jpg",
-                "/React_Page/src/assets/pp3.jpg",
+                "/React_Page/assets/pp1.jpg",
+                "/React_Page/assets/pp2.jpg",
+                "/React_Page/assets/pp3.jpg",
               ].map((imagePath, index) => (
                 <motion.div
                   key={index}
@@ -300,7 +300,7 @@ const HeroSection = () => {
               className="absolute left-0 bottom-1/4 transform -translate-x-1/2 z-10"
             >
               <img
-                src="/React_Page/src/assets/LeftPhone.png"
+                src="/React_Page/assets/LeftPhone.png"
                 alt="Appit Social App Interface"
                 className="w-64 h-auto mask-gradient"
               />
@@ -318,7 +318,7 @@ const HeroSection = () => {
               className="relative z-20"
             >
               <img
-                src="/React_Page/src/assets/FrontPhone.png"
+                src="/React_Page/assets/FrontPhone.png"
                 alt="Appit Social Login Screen"
                 className="w-64 h-auto mx-auto mask-gradient"
               />
@@ -336,7 +336,7 @@ const HeroSection = () => {
               className="absolute right-0 bottom-1/4 transform translate-x-1/2 z-10"
             >
               <img
-                src="/React_Page/src/assets/RightPhone.png"
+                src="/React_Page/assets/RightPhone.png"
                 alt="Appit Social Search Screen"
                 className="w-64 h-auto mask-gradient"
               />
@@ -368,7 +368,7 @@ const HeroSection = () => {
               custom={index}
               variants={logoVariants}
               whileHover={{ scale: 1.1 }}
-              src={`/React_Page/src/assets/${company}.png`}
+              src={`/React_Page/assets/${company}.png`}
               alt={company}
               className="h-8"
             />
