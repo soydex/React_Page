@@ -1,10 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/React_Page/', // Chemin de base correct pour GitHub Pages
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   server: {
     port: 3000, // Change port number
     open: true, // Auto-open browser
